@@ -36,11 +36,18 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* prevent stuck modifiers */
+#define PREVENT_STUCK_MODIFIERS
+
+/* N-key rollover */
+#define FORCE_NKRO
+
 #define RGB_DI_PIN E2
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 16
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_HUE_STEP 5
+#define RGBLIGHT_SAT_STEP 5
+#define RGBLIGHT_VAL_STEP 5
+#define RGBLIGHT_SLEEP
 
 #endif
